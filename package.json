@@ -1,0 +1,17 @@
+{
+  "name": "bot-discord",
+  "version": "1.0.0",
+  "description": "Liber's discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.32.0",
+    "nodemon": "^2.0.20"
+  }
+}

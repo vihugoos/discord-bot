@@ -19,6 +19,4 @@ module.exports = function commandHandling(client) {
             );
         }
     }
-
-    return client;
 };

@@ -17,6 +17,4 @@ module.exports = function eventHandling(client) {
             client.on(event.name, (...args) => event.execute(...args));
         }
     }
-
-    return client;
 };

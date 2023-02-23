@@ -10,7 +10,7 @@ const openai = new OpenAIApi(configuration);
 module.exports = {
     data: new SlashCommandBuilder()
         .setName("bot")
-        .setDescription("perguntar alguma coisa para o bot")
+        .setDescription("Perguntar algo para o bot.")
         .addStringOption((option) =>
             option
                 .setName("perguntar")

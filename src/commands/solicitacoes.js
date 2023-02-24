@@ -44,6 +44,7 @@ module.exports = {
 
         if (solicitations.length > 0) {
             const embeds = [];
+            let attendant;
 
             for (const solicitation of solicitations) {
                 const user = await prisma.users.findFirst({
@@ -53,7 +54,7 @@ module.exports = {
                 });
 
                 if (solicitation.attendant_id) {
-                    const attendant = await prisma.attendants.findFirst({
+                    attendant = await prisma.attendants.findFirst({
                         where: {
                             id: solicitation.attendant_id,
                         },

@@ -1,0 +1,55 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Users {
+  id             String   @id @default(uuid())
+  name           String?
+  cpf            String?  @unique
+  rg             String?  @unique
+  email          String?  @unique
+  phone_number   String   @unique
+  stage          String?
+  created_at     String
+  bot_created_at DateTime @default(now())
+
+  solicitations Solicitations[]
+
+  @@map("users")
+}
+
+model Attendants {
+  id               String   @id @default(uuid())
+  name             String
+  discord_username String   @unique
+  discord_user_id  String   @unique
+  in_attendance    Boolean  @default(false)
+  created_at       DateTime @default(now())
+
+  solicitations Solicitations[]
+
+  @@map("attendants")
+}
+
+model Solicitations {
+  id           String    @id @default(uuid())
+  user_id      String
+  attendant_id String?
+  service      String
+  open         Boolean   @default(true)
+  start_at     String
+  end_at       String?
+  bot_start_at DateTime  @default(now())
+  bot_end_at   DateTime?
+  satisfaction String?
+
+  user      Users       @relation(fields: [user_id], references: [id])
+  attendant Attendants? @relation(fields: [attendant_id], references: [id])
+
+  @@map("solicitations")
+}

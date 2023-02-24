@@ -7,12 +7,14 @@
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
+    "@prisma/client": "^4.10.1",
     "discord.js": "^14.7.1",
     "dotenv": "^16.0.3",
     "openai": "^3.1.0"
   },
   "devDependencies": {
     "eslint": "^8.32.0",
-    "nodemon": "^2.0.20"
+    "nodemon": "^2.0.20",
+    "prisma": "^4.10.1"
   }
 }

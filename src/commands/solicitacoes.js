@@ -90,7 +90,7 @@ module.exports = {
 
             await interaction.editReply({
                 embeds,
-                content: `Exibindo **${solicitations.length}** ${
+                content: `Encontrada **${solicitations.length}** ${
                     solicitations.length === 1 ? "solicitação" : "solicitações"
                 }!`,
             });

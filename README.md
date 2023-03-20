@@ -103,6 +103,9 @@ Other than Node.js and Docker installed, no prerequisites are needed to install 
    npm install
    ```
 3. Create an `.env` file with environment variables 
+   
+   Access <a href="https://platform.openai.com/">OpenAI API</a> to create an account e generate a token.
+
    ```bash
    cat > .env << EOF
    TOKEN=yourBotToken
@@ -111,7 +114,7 @@ Other than Node.js and Docker installed, no prerequisites are needed to install 
 
    GUILD_ID=yourGuildID
 
-   OPENAI_API_KEY=yourOpenAiKey
+   OPENAI_API_KEY=yourOpenAIKey
 
    DATABASE_URL="postgresql://postgres:docker@localhost:5432/liber?schema=public"
    EOF
@@ -124,6 +127,7 @@ Other than Node.js and Docker installed, no prerequisites are needed to install 
    ```cmd
    npx prisma migrate dev
    ```
+5. Add the bot to the desired server, follow instructions from official <a href="https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links">discord.js guide. </a> 
 
 
 <!---- USAGE EXAMPLES ----> 

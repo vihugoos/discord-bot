@@ -127,7 +127,7 @@ Other than Node.js and Docker installed, no prerequisites are needed to install 
    ```cmd
    npx prisma migrate dev
    ```
-5. Add the bot to the desired server, follow instructions from official <a href="https://discordjs.guide/preparations/adding-your-bot-to-servers.html#bot-invite-links">discord.js guide. </a> 
+5. Add the bot to the desired server, follow instructions from official <a href="https://discordjs.guide/preparations/adding-your-bot-to-servers.html">discord.js guide. </a> 
 
 
 <!---- USAGE EXAMPLES ----> 

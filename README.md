@@ -43,7 +43,7 @@
 ## About The Project 
 
 <img src="" align="center" alt="Project Home Page">
-An API for creating and delivering orders. The customer registers a new order, later a deliveryman takes over the delivery, after the completion, the deliveryman closes the order. 
+A discord bot to add some slash commands to Liber's discord server. Among the available commands are: <strong>/clear</strong> (delete x number of messages), <strong>/requests</strong> (bring all solicitations made, open or closed) and <strong>/bot</strong> (ask anything to the bot, running the ChatGPT API). 
 
 
 ### Built With 
@@ -96,7 +96,7 @@ Other than Node.js and Docker installed, no prerequisites are needed to install 
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/delivery-server.git 
+   git clone https://github.com/vihugoos/discord-bot.git
    ```
 2. Inside the project root directory install all project dependencies 
    ```cmd

@@ -82,7 +82,7 @@ A discord bot to add some slash commands to Liber's discord server.
 <!---- GETTING STARTED ----> 
 ## Getting Started
 
-To get started, you need to have <strong>Node.js 19+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>Docker</strong> installed, for more information visit <a href="https://docs.docker.com/engine/install/">Docker Engine Install</a>. 
+To get started, you need to have <strong>Node.js 18+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>Docker</strong> installed, for more information visit <a href="https://docs.docker.com/engine/install/">Docker Engine Install</a>. 
 
 <strong>Obs:</strong> This guide will only serve to run the project locally (development environment), initially based on linux systems.
 

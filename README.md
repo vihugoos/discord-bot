@@ -42,8 +42,8 @@
 <!---- THE PROJECT ---->
 ## About The Project 
 
-<img src="" align="center" alt="Project Home Page">
-A discord bot to add some slash commands to Liber's discord server. Among the available commands are: <strong>/clear</strong> (<i>delete x number of messages</i>), <strong>/requests</strong> (<i>bring all solicitations made, open or closed</i>) and <strong>/bot</strong> (<i>ask anything to the bot, running the ChatGPT API</i>). 
+<img src="https://user-images.githubusercontent.com/44311634/226939863-fb63e12f-6c82-47f5-a1fb-72e0ade59201.png" align="center" alt="Project Home Page">
+A discord bot to add some slash commands to Liber's discord server.  
 
 
 ### Built With 

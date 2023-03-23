@@ -50,7 +50,7 @@ A discord bot to add some slash commands to Liber's discord server.
 
 <div style="display: inline_block">
     <!-- Icon Node.js --> 
-    <a href=""> 
+    <a href="https://nodejs.org/en"> 
       <img align="center" alt="Icon-Nodejs" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
     <!-- Icon Discord.js --> 

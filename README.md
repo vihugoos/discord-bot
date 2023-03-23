@@ -49,9 +49,9 @@ A discord bot to add some slash commands to Liber's discord server.
 ### Built With 
 
 <div style="display: inline_block">
-    <!-- Icon JavaScript --> 
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"> 
-      <img align="center" alt="Icon-JS" height="33" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"> 
+    <!-- Icon Node.js --> 
+    <a href=""> 
+      <img align="center" alt="Icon-Nodejs" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
     <!-- Icon Discord.js --> 
     <a href="https://discord.js.org/"> 
